@@ -1,0 +1,6 @@
+{
+  "name": "Safety Gate",
+  "description": "Scans for leaked secrets and forbidden patterns (private IPs, paths, hostnames)",
+  "iconName": "shield-lock",
+  "categories": ["security"]
+}
