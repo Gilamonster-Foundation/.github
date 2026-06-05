@@ -43,36 +43,25 @@ ecosystems served.
 
 ## Projects
 
-### Build with agents
+### Learn
 
-| Repo | What it is |
-|------|------------|
-| [newt-agent](https://github.com/Gilamonster-Foundation/newt-agent) | **Small, fast, local-first agentic coder** — vi to Hermes-Agent's emacs. A single Rust binary with a sharp, minimal tool set that runs against your local hardware by default: no cloud bytes leave your machine unless you deliberately install a provider plugin. Ships its core as the `newt-agent-py` PyO3 wheel. We build it because an agentic coder should be an instrument you own, not a subscription you rent. |
-| [hermes-thoon](https://github.com/Gilamonster-Foundation/hermes-thoon) | **A fork of [hermes-agent](https://github.com/NousResearch/hermes-agent) made for SPEED.** Takes a feature-rich Python agent and moves its hot paths onto the shared Rust crates that power newt-agent — the PyO3 style proven on a real, living codebase rather than a toy benchmark. |
-| [monitor-agent](https://github.com/Gilamonster-Foundation/monitor-agent) | **A lightweight systems-monitoring agent for operations.** Rust, small footprint, built to give a fleet of machines (and the agents running on them) operational eyes without dragging in a heavyweight observability stack. |
+| Repo | Description |
+|------|-------------|
+| [rust-for-pythonistas](https://github.com/Gilamonster-Foundation/rust-for-pythonistas) | Learn Rust through Python analogies — from ownership to content-addressable data |
+| [agents](https://github.com/Gilamonster-Foundation/agents) | Rules templates and skills for Centaur Developers (human / agent contributors) |
 
-### Keep agents honest
+### Agent Stack
 
-| Repo | What it is |
-|------|------------|
-| [agent-bridle](https://github.com/Gilamonster-Foundation/agent-bridle) | **The capability leash for agent tools.** A capability-governed tool registry: every tool declares the authority it needs, dispatch refuses unless required ⊑ granted, and tools receive only the meet of the two — least authority by construction, backstopped by Landlock on Linux. We build it because the confused-deputy problem is an *architecture* problem; hardening the prompt does not fix it. |
-| [agent-mesh](https://github.com/Gilamonster-Foundation/agent-mesh) | **Cryptographic peer-to-peer agent coordination** — vi-minimal mesh, no broker. Agents coordinate directly with signed messages instead of trusting a central service. We build it because a coordination layer should not be a single point of failure, compromise, or rent. |
+| Repo | Description |
+|------|-------------|
+| [newt-agent](https://github.com/Gilamonster-Foundation/newt-agent) | Small, fast, local-first agentic coder — vi to Hermes-Agent's emacs |
+| [agent-bridle](https://github.com/Gilamonster-Foundation/agent-bridle) | The capability leash for agent tools — a capability-governed tool registry for the Gilamonster agent line |
+| [agent-mesh](https://github.com/Gilamonster-Foundation/agent-mesh) | Cryptographic peer-to-peer agent coordination — vi-minimal mesh, no broker |
+| [hermes-thoon](https://github.com/Gilamonster-Foundation/hermes-thoon) | A fork of hermes-agent made for SPEED |
+| [monitor-agent](https://github.com/Gilamonster-Foundation/monitor-agent) | A lightweight systems monitoring agent for operations |
 
-### Learn and contribute
-
-| Repo | What it is |
-|------|------------|
-| [agents](https://github.com/Gilamonster-Foundation/agents) | **The Centaur Developer base.** Canonical rules, templates, skills, and soul files for human / agent contributors across the org — including the crediting rules that put `model@harness` attribution into git history. Start here if you (or your agent) want to contribute. |
-| [rust-for-pythonistas](https://github.com/Gilamonster-Foundation/rust-for-pythonistas) | **Learn Rust through Python analogies** — from ownership to content-addressable data. The on-ramp for Python developers joining the PyO3 style. |
-| [.github](https://github.com/Gilamonster-Foundation/.github) | Organization-level defaults, templates, and safety workflows — secret scanning, push protection, and CI gates shared across the org. |
-
-### In the hangar
-
-Beyond the public repos, we are developing multi-agent orchestration —
-flights of local-model workers coordinated over agent-mesh, each on an
-agent-bridle leash — privately. Those projects go public once they pass
-our go-public scrub, the same provenance discipline we apply to everything
-else.
+Each repo's README carries the longer story — what it is, why it exists,
+and how it fits the PyO3 style.
 
 ## Philosophy
 
