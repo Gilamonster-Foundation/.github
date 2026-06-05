@@ -10,10 +10,22 @@ what makes Python productive.
 
 ## Projects
 
+### Learn
+
 | Repo | Description |
 |------|-------------|
 | [rust-for-pythonistas](https://github.com/Gilamonster-Foundation/rust-for-pythonistas) | Learn Rust through Python analogies — from ownership to content-addressable data |
 | [agents](https://github.com/Gilamonster-Foundation/agents) | Rules templates and skills for Centaur Developers (human / agent contributors) |
+
+### Agent Stack
+
+| Repo | Description |
+|------|-------------|
+| [newt-agent](https://github.com/Gilamonster-Foundation/newt-agent) | Small, fast, local-first agentic coder — vi to Hermes-Agent's emacs |
+| [agent-bridle](https://github.com/Gilamonster-Foundation/agent-bridle) | The capability leash for agent tools — a capability-governed tool registry for the Gilamonster agent line |
+| [agent-mesh](https://github.com/Gilamonster-Foundation/agent-mesh) | Cryptographic peer-to-peer agent coordination — vi-minimal mesh, no broker |
+| [hermes-thoon](https://github.com/Gilamonster-Foundation/hermes-thoon) | A fork of hermes-agent made for SPEED |
+| [monitor-agent](https://github.com/Gilamonster-Foundation/monitor-agent) | A lightweight systems monitoring agent for operations |
 
 ## Philosophy
 
