@@ -46,6 +46,22 @@ This catches issues locally before you push.
 3. Keep PRs focused — one logical change per PR
 4. Write a clear description: what changed and why
 
+## Centaur Developers (Human / Agent Contributors)
+
+We welcome contributions from human/agent teams — what we call **Centaur
+Developers**. If an AI agent helped produce your contribution:
+
+- **Disclose it.** Credit the agent in commit trailers using the synthetic
+  `model@harness` identity format (e.g.
+  `Co-Authored-By: nemotron3:33b <nemotron3:33b@newt-agent>` — not a real
+  email address).
+- **Own it.** A human reviews and is accountable for everything that lands.
+  Autonomous agent work always arrives through a pull request, never a
+  direct push.
+- **Follow the rules repo.** Templates, skills, and the full crediting
+  conventions live in
+  [Gilamonster-Foundation/agents](https://github.com/Gilamonster-Foundation/agents).
+
 ## License
 
 By contributing, you agree that your contributions will be licensed under the
