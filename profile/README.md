@@ -3,13 +3,17 @@
 **Open Source Software — Designed for Agentic Workflows**
 
 We build tools and educational resources at the intersection of developer
-tooling, data provenance, and agentic systems.
+tooling, data provenance, and agentic systems. Our specific domain is
+**Python ↔ Rust interop**: reaching for Rust *from* Python — bindings,
+real threads beyond the GIL, and type-system rigor — without giving up
+what makes Python productive.
 
 ## Projects
 
 | Repo | Description |
 |------|-------------|
 | [rust-for-pythonistas](https://github.com/Gilamonster-Foundation/rust-for-pythonistas) | Learn Rust through Python analogies — from ownership to content-addressable data |
+| [agents](https://github.com/Gilamonster-Foundation/agents) | Rules templates and skills for Centaur Developers (human / agent contributors) |
 
 ## Philosophy
 
