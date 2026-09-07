@@ -2,6 +2,8 @@
 
 **Open Source Software — Designed for Agentic Workflows**
 
+The work of one man and his army of agents.
+
 We build tools and educational resources at the intersection of developer
 tooling, data provenance, and agentic systems. Our specific domain is
 **Python ↔ Rust interop**: reaching for Rust *from* Python — bindings,
