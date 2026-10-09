@@ -10,28 +10,6 @@ tooling, data provenance, and agentic systems. Our specific domain is
 real threads beyond the GIL, and type-system rigor — without giving up
 what makes Python productive.
 
-## How We Build: Centaur Development
-
-We practice **Agentic Engineering, not Vibe Coding**. A Centaur Developer is
-a human / agent pair working as one contributor: the human owns judgment —
-architecture, review, and the merge button — while agents carry throughput.
-The discipline is the point:
-
-- **Every change rides the same rails:** branch → test-driven development →
-  all checks green → pull request → CI → human merge. No exceptions for
-  agent-authored code.
-- **Every bug fix ships a regression test** that failed before the fix.
-- **Zero-warnings policy** at merge — lint noise is where real issues hide.
-- **Agents work on a leash:** tool authority is capability-governed and
-  deny-by-default (see [agent-bridle](https://github.com/Gilamonster-Foundation/agent-bridle)),
-  not entrusted to prompt hygiene.
-- **Agents are credited, not hidden:** agent contributions are attributed as
-  `model@harness` (e.g. `nemotron3:33b@newt-agent`) so provenance survives
-  in the history.
-
-The canonical rules, templates, and skills live in the
-[agents](https://github.com/Gilamonster-Foundation/agents) repo.
-
 ## The PyO3 Style
 
 Our house pattern for shipping software: **a Rust core with Python reach.**
@@ -59,7 +37,6 @@ ecosystems served.
 | [newt-agent](https://github.com/Gilamonster-Foundation/newt-agent) | Small, fast, local-first agentic coder — vi to Hermes-Agent's emacs |
 | [agent-bridle](https://github.com/Gilamonster-Foundation/agent-bridle) | The capability leash for agent tools — a capability-governed tool registry for the Gilamonster agent line |
 | [agent-mesh](https://github.com/Gilamonster-Foundation/agent-mesh) | Cryptographic peer-to-peer agent coordination — vi-minimal mesh, no broker |
-| [hermes-thoon](https://github.com/Gilamonster-Foundation/hermes-thoon) | A fork of hermes-agent made for SPEED |
 | [monitor-agent](https://github.com/Gilamonster-Foundation/monitor-agent) | A lightweight systems monitoring agent for operations |
 
 Each repo's README carries the longer story — what it is, why it exists,
